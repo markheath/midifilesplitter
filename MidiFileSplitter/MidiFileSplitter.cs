@@ -313,9 +313,7 @@ namespace MarkHeath.MidiUtils
                     exportEvents.AddTrack(trackEvents);
                 }
             }
-
-            
-            
+                        
             bool gotNotes = false;
             foreach(IList<MidiEvent> trackEvents in exportEvents)
             {            

@@ -31,7 +31,7 @@ using System.Runtime.InteropServices;
 //      Revision
 //
 [assembly: AssemblyVersion("0.7.9.0")]
-[assembly: AssemblyFileVersion("0.7.9.0")]
+[assembly: AssemblyFileVersion("0.8.10.0")]
 
 // build 5 - 3 Nov 2006
 // Added an installer
@@ -46,6 +46,8 @@ using System.Runtime.InteropServices;
 // updated to use new MidiEventCollection
 // build 9 - 26 Apr 2007
 // move to separate CodePlex project
+// build 10 - 28 Aug 2010
+// port to VS 2010
 
 // TODO list:
 // upgrade settings
