@@ -8,11 +8,11 @@ Splitting the files is as simple as selecting the files you want to split in Win
 
 MIDI File Splitter has a detailed output window that shows you exactly what files it is creating, and reports any errors it encounters (look for messages in Red). MIDI File Splitter will never overwrite an existing file, but you can ask it to generate a new unique filename if the file it is trying to create already exists.
 
-MIDI File Splitter is beta software and may contain some bugs. Please do check that the output files it creates are what you expected. If you encounter any bugs, or have any feature requests, please report them to **software@wordandspirit.co.uk**
+MIDI File Splitter is beta software and may contain some bugs. Please do check that the output files it creates are what you expected. If you encounter any bugs, or have any feature requests, please report them on the issues tab
 
 ## Download
 
-A link to the latest version of MIDI File Splitter can be found [here](http://www.codeplex.com/midifilesplitter/Release/ProjectReleases.aspx)
+A link to the latest version of MIDI File Splitter can be found [here](https://github.com/markheath/midifilesplitter/releases)
 
 ## Installation and Requirements
 
@@ -61,20 +61,20 @@ The options dialog allows you to customise the behaviour of MIDI File Splitter.
 
 Here is a step by step guide on how to make use of the Session Drummer and Pattern Brush patterns in [EZdrummer](http://www.ezdrummer.com/index.asp).
 
-# Select one of the output options in MIDI File Splitter that will create files in subfolders
-# You may also want to select to set all MIDI note durations to 1, and all MIDI events to channel 1 to improve compatibility between EZdrummer and SONAR.
-# In Windows Explorer, browse to the Session Drummer's Drum Styles folder. (On my computer this is: _C:\Program Files\Cakewalk\Shared MIDI Plugins_)
-# Select all the files and drag them into MIDI File Splitter</li>
-# Take all the created folders of MIDI files and put them into the EZdrummer _My Midi Files_ folder, perhaps under another subdirectory called "Session Drummer". (e.g. _C:\Program Files\Toontrack\EZDrummer\Midi\MY MIDIFILES\Session Drummer_)
-# Now browse to the Pattern Brush Patterns folder (On my computer this is _C:\Program Files\Cakewalk\SONAR 5 Studio Edition\Pattern Brush Patterns_)
-# Select all and drag them into MIDI File Splitter
-# Again take all the created folders and put them into EZdrummer's My MIDI files folder, under a different subdirectory. (e.g _C:\Program Files\Toontrack\EZDrummer\Midi\MY MIDIFILES\Pattern Brush_)
+ * Select one of the output options in MIDI File Splitter that will create files in subfolders
+ * You may also want to select to set all MIDI note durations to 1, and all MIDI events to channel 1 to improve compatibility between EZdrummer and SONAR.
+ * In Windows Explorer, browse to the Session Drummer's Drum Styles folder. (On my computer this is: _C:\Program Files\Cakewalk\Shared MIDI Plugins_)
+ * Select all the files and drag them into MIDI File Splitter
+ * Take all the created folders of MIDI files and put them into the EZdrummer _My Midi Files_ folder, perhaps under another subdirectory called "Session Drummer". (e.g. _C:\Program Files\Toontrack\EZDrummer\Midi\MY MIDIFILES\Session Drummer_)
+ * Now browse to the Pattern Brush Patterns folder (On my computer this is _C:\Program Files\Cakewalk\SONAR 5 Studio Edition\Pattern Brush Patterns_)
+ * Select all and drag them into MIDI File Splitter
+ * Again take all the created folders and put them into EZdrummer's My MIDI files folder, under a different subdirectory. (e.g _C:\Program Files\Toontrack\EZDrummer\Midi\MY MIDIFILES\Pattern Brush_)
 
 ![](ezdrummer_patterns.jpg)
 
 ## Version History
 
-New versions of MIDI File Splitter can be found at [http://www.codeplex.com/naudio](http://www.codeplex.com/naudio).
+New versions of MIDI File Splitter can be found at [https://github.com/naudio/NAudio/](https://github.com/naudio/NAudio/).
 
 * v0.01 - 4 Oct 2006
 	* First public beta release
